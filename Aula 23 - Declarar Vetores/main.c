@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void) {
+	
+	int i;
+	int vetor [5] = {0};
+	
+	for (i = 0; i < 5; ++i) {
+		printf("%i\n", vetor[i]);
+	}
+		
+	system("pause");
+}
